@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERPHY - Tu tienda de ropa online</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="header-content">
+                <div class="logo-container">
+                    <a href="#home" id="inicio" class="logo-link">
+                        <img src="imagenes/logo.png" alt="Logo ZERPHY" class="logo">
+                    </a>
+                </div>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li><a href="#" class="categoria" data-categoria="hombre">Hombre</a></li>
+                        <li><a href="#" class="categoria" data-categoria="mujer">Mujer</a></li>
+                        <li><a href="#" class="categoria" data-categoria="accesorios">Accesorios</a></li>
+                    </ul>
+                    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos" id="home">
+            <h1>Bienvenidos a ZERPHY</h1>
+            <div class="promociones">
+                <h2>Promociones y Productos Destacados</h2>
+                <div class="productos-container">
+                    <div class="producto">
+                        <img src="imagenes/imagen1.jpg" alt="Camisa blanca">
+                        <h2>Camisa blanca - Hombre</h2>
+                        <p><span class="precio-original">COP $29.000
+
+                        </span><br> COP $26.000
+                        </p>
+                        <button class="agregar-carrito" data-nombre="Camisa blanca" data-precio="26.000
+                        ">Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="imagenes/imagen2.jpg" alt="Jean azul">
+                        <h2>Jean azul - Mujer</h2>
+                        <p><span class="precio-original">COP $39.000
+
+                        </span><br> COP $35.000
+                        </p>
+                        <button class="agregar-carrito" data-nombre="Jean azul" data-precio="35.000">Agregar al carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="imagenes/imagen3.jpg" alt="Gorra negra">
+                        <h2>Gorra negra - Accesorios</h2>
+                        <p><span class="precio-original">COP $19.000
+
+                        </span><br> COP $17.000
+                        </p>
+                        <button class="agregar-carrito" data-nombre="Gorra negra" data-precio="17.000
+                        ">Agregar al carrito</button>
+                    </div>
+                </div>
+                <div class="llamada-atencion">
+                    <p>¡Descubre nuestras ofertas exclusivas y productos de temporada! No te lo pierdas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="productos" id="hombre">
+            <h1>Hombre</h1>
+            <div class="productos-container">
+                <div class="producto">
+                    <img src="imagenes/imagen1.jpg" alt="Camisa blanca">
+                    <h2>Camisa blanca</h2>
+                    <p><span class="precio-original">COP $29.000
+
+                    </span><br> COP $26.000
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Camisa blanca" data-precio="26.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen4.jpg" alt="Chaqueta negra">
+                    <h2>Chaqueta negra</h2>
+                    <p>COP $59.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Chaqueta negra" data-precio="59.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen5.jpg" alt="Cargo negro">
+                    <h2>Cargo negro</h2>
+                    <p>COP $39.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Cargo negro" data-precio="39.000
+                    ">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="productos" id="mujer">
+            <h1>Mujer</h1>
+            <div class="productos-container">
+                <div class="producto">
+                    <img src="imagenes/imagen2.jpg" alt="Jean azul">
+                    <h2>Jean azul</h2>
+                    <p><span class="precio-original">COP $39.000
+
+                    </span><br> COP $35.000
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Jean azul" data-precio="35.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen6.jpg" alt="Blusa rosada">
+                    <h2>Blusa rosada</h2>
+                    <p>COP $24.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Blusa rosada" data-precio="24.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen7.jpg" alt="Vestido negro">
+                    <h2>Vestido negro</h2>
+                    <p>COP $49.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Vestido negro" data-precio="49.000
+                    ">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="productos" id="accesorios">
+            <h1>Accesorios</h1>
+            <div class="productos-container">
+                <div class="producto">
+                    <img src="imagenes/imagen3.jpg" alt="Gorra negra">
+                    <h2>Gorra negra</h2>
+                    <p><span class="precio-original">COP $19.000
+
+                    </span><br> COP $17.000
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Gorra negra" data-precio="17.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen8.jpg" alt="Bolso cafe">
+                    <h2>Bolso cafe</h2>
+                    <p>COP $49.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Bolso cafe" data-precio="49.000
+                    ">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="imagenes/imagen9.jpg" alt="Reloj automatico">
+                    <h2>Reloj automatico</h2>
+                    <p>COP $89.000
+
+                    </p>
+                    <button class="agregar-carrito" data-nombre="Reloj automatico" data-precio="89.000
+                    ">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p><strong>Contacto:</strong> +57 322 527 17 83</p>
+            <p><strong>Email soporte:</strong> brayancossio2965@politecnicomayor.edu.co</p>
+            <p><strong>Garantía:</strong> 2 meses por defectos de fábrica en todos nuestros productos.</p>
+            <p><strong>Horario de atención:</strong> Lunes a Viernes de 9:00am a 7:00pm</p>
+        </div>
+        <p>&copy; 2024 ZERPHY. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <div id="carrito" class="carrito-flotante">
+        🛒
+    </div>
+
+    <div id="carrito-contenido" class="carrito-contenido">
+        <h2>Carrito de Compras</h2>
+        <div id="productos-carrito"></div>
+        <div id="total-carrito"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
